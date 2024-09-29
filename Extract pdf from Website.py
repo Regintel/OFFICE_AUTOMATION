@@ -75,25 +75,21 @@ def extract_url_pdf(input_url,folder_path=os.getcwd()):
 
 #urls to try:
 
-# https://www.icai.org/category/bos-important-announcements
-# https://www.icai.org/post.html?post_id=17843
-#https://www.icai.org/post.html?post_id=17825
-# https://cbic-gst.gov.in/central-tax-notifications.html
-# https://trends.builtwith.com/websitelist/Responsive-Tables
+# https://www.fda.gov/regulatory-information/search-fda-guidance-documents
 
 
 # In[5]:
 
 
-extract_url_pdf(input_url="https://www.icai.org/post.html?post_id=17843")
+extract_url_pdf(input_url="https://www.fda.gov/regulatory-information/search-fda-guidance-documents")
 
 
 # In[6]:
 
 
-extract_url_pdf(input_url="https://cbic-gst.gov.in/central-tax-notifications.html")
+extract_url_pdf(input_url="https://www.fda.gov/regulatory-information/search-fda-guidance-documents")
 
-# https://cbic-gst.gov.in/central-tax-notifications.html
+# https://www.fda.gov/regulatory-information/search-fda-guidance-documents
 
 
 # In[ ]:
